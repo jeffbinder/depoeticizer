@@ -1,0 +1,66 @@
+select, input {
+    font-size: 16px !important;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    margin: 1px;
+}
+
+textarea {
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+}
+
+select {
+    float: right;
+    width: 300px;
+}
+
+.select-label {
+    float: left;
+    width: 140px;
+    position: relative;
+    top: 3px;
+}
+
+.details-box {
+    outline: 1px solid grey;
+    width: 290px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.details-heading {
+    margin-bottom: 2px;
+}
+
+.io-area {
+    float: left;
+    width: 50%;
+}
+
+.depoeticizer-input {
+    outline: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 318px;
+    padding: 5px;
+    resize: none;
+}
+
+.depoeticizer-output-area {
+    outline: 1px solid grey;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 316px;
+    margin-top: 1px;
+    padding: 5px;
+    overflow: scroll;
+    font-size: 12px;
+}
